@@ -32,15 +32,24 @@ cd image-encryption
 
 * Packages Used:
 
- -> tkinter import *
+ -> tkinter import * 
+ 
  -> tkinter import filedialog
+ 
  -> Crypto.Cipher import DES
+ 
  -> Crypto.Hash import SHA256
+ 
  -> turtle
+ 
  -> argon2
+ 
  -> requests
+ 
  -> os
+ 
  -> getpass import getpass
+ 
  -> Crypto.Protocol.KDF import PBKDF2
 
 * Run the Application:
