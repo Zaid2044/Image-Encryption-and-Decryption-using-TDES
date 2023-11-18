@@ -27,21 +27,21 @@ Installation
 
 bash
 Copy code
-git clone https://github.com/your-username/image-encryption.git
+git clone https://github.com/Zaid2044/Image-encryption-and-decryption-using-TDES.git
 cd image-encryption
 
 * Packages Used:
 
- tkinter import *
- tkinter import filedialog
- Crypto.Cipher import DES
- Crypto.Hash import SHA256
- turtle
- argon2
- requests
- os
- getpass import getpass
- Crypto.Protocol.KDF import PBKDF2
+ -> tkinter import *
+ -> tkinter import filedialog
+ -> Crypto.Cipher import DES
+ -> Crypto.Hash import SHA256
+ -> turtle
+ -> argon2
+ -> requests
+ -> os
+ -> getpass import getpass
+ -> Crypto.Protocol.KDF import PBKDF2
 
 * Run the Application:
 
