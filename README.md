@@ -5,6 +5,7 @@
 This project focuses on securing image data through the use of Triple DES (TDES) encryption and decryption. Triple DES is a symmetric-key block cipher that applies the Data Encryption Standard (DES) algorithm three times to each data block. This provides a higher level of security compared to single DES.
 
 * How it Works
+
   Key Generation:
 
 Three different keys (K1, K2, K3) are derived from a single key through a key scheduling process.
@@ -31,6 +32,17 @@ cd image-encryption
 
 * Packages Used:
 
+ tkinter import *
+ tkinter import filedialog
+ Crypto.Cipher import DES
+ Crypto.Hash import SHA256
+ turtle
+ argon2
+ requests
+ os
+ getpass import getpass
+ Crypto.Protocol.KDF import PBKDF2
+
 * Run the Application:
 
 bash
@@ -38,24 +50,29 @@ Copy code
 npm start
 
 * Features
+
 Triple Layered Security: The use of three keys in TDES provides a robust encryption mechanism.
 Configurable: Users can specify input and output files, enhancing flexibility.
 Key Management: Keys are managed through a separate key file, allowing for secure key storage and distribution.
 Contributing
 
 * Fork the repository
+
 Create a new branch: git checkout -b feature/new-feature
 Make your changes and commit them: git commit -m 'Add new feature'
 Push to the branch: git push origin feature/new-feature
 Submit a pull request
 
 * License
+  
 This project is licensed under the MIT License.
 
 * Contact
+
 For questions or suggestions, feel free to contact the project maintainer at nottherealbeast02@gmail.com
 
 * Acknowledgements
+
 The project uses the Node.js crypto library for encryption and decryption.
 Special thanks to the TDES encryption algorithm contributors and the open-source community.
 
